@@ -1,0 +1,37 @@
+.back-icon{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.item-media{
+    text-align: center;
+    height: 40px;
+    white-space: nowrap;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.select-prod-card{
+    margin-bottom: -20px;
+}
+.delete-icon{
+    line-height: 0px;
+}
+
+.footer-label{
+        height: 20px;
+    vertical-align: text-bottom;
+}
+.goods-label{
+    font-weight: normal;
+}
+.add-button{
+    color: #607d8b !important;
+    right: 10px;
+    min-width: 30px !important;
+    height: 40px !important;
+    border-radius: 100% !important;
+}
+.add-icon{
+    line-height: 40px;
+}

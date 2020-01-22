@@ -1,0 +1,7 @@
+.idea
+node_modules
+src/store/config/config.json
+www/*
+!www/.gitkeep
+platforms/*
+!platforms/.gitkeep

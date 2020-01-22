@@ -1,0 +1,11 @@
+.delete-cart {
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 4px;
+    right: 10px;
+    color: red;
+}

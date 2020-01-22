@@ -1,0 +1,83 @@
+.profile-card{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    padding: 10px 10px 0 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+.top-card{
+    display: inline-block;
+}
+.avatar{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+/*    background-image: url('../img/avatar.png');*/
+    float: left;
+    margin: 0 10px 0 0;
+}
+.main-info{
+    display: inline-block;
+    text-align: left;
+}
+.profile-name{
+    font-size: 17px;
+}
+.city-card{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #595959;
+}
+.bonus-card{
+    padding: 10px 0;
+}
+.left-bonus{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px 10px 0;
+    border-right: 2px solid #ccc;
+    vertical-align: middle;
+}
+.bonus-label{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #595959;
+}
+.bonus-amount{
+    font-size: 45px;
+    line-height: 40px;
+    color: #008073;
+    font-weight: bold;
+}
+.right-bonus{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    transform: translateX(-5px);
+}
+.to-card{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    color: #009688 !important;
+    font-weight: bold;
+}
+.line-bonus{
+    background-color: #ccc;
+    height: 2px;
+    width: 120px;
+}
+
+.add-popover{
+    width: 250px !important;
+    margin-left: 13px !important;
+    margin-top: 5px !important;
+}

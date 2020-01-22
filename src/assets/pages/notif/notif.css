@@ -1,0 +1,23 @@
+.notif-row{
+    text-align: center;
+    padding: 10px 10px 30px;
+
+}
+
+.notif-checkbox:after {
+    display: none;
+}
+.notif-checkbox {
+    height: 25px !important;
+    width: 50px !important;
+    transform: translateX(-10px);
+}
+.push-switch input[type="checkbox"]:checked + .checkbox:before  {
+    content: 'ВКЛ' !important;
+    color: #fff;
+}
+.push-switch .checkbox:before {
+    content: 'ВЫКЛ';
+    font-size: 11px;
+    line-height: 26px;
+}
